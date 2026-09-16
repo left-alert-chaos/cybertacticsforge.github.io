@@ -575,6 +575,9 @@ nav .nav-cta:hover {
   gap: 20px;
   margin-top: 30px;
 }
+.invitation + .invitation {
+  margin-top: 12px;
+}
 .invitation p {
   font-size: 0.86rem;
   color: var(--muted);
