@@ -2,6 +2,8 @@
 
 Static website for CyberTacticsForge, hosted with GitHub Pages. No build step or package installation is required.
 
+For the everyday commands to update from GitHub, resolve conflicts, and publish to `main`, see [Git Push and Pull](GIT_PUSH_AND_PULL.md).
+
 ## Preview locally
 
 From this directory:
