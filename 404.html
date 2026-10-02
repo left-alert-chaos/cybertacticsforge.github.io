@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" href="index.css" />
+<style>
+h1, p, .button {
+	margin-top: 20px;
+}
+.centered-error {
+	text-align: center;
+	align-items: center;
+	overflow: auto;
+	margin: auto;
+}
+</style>
+	</head>
 
-<head>
-    <link type="text/css" rel="stylesheet" href="./404.css" />
-</head>
+	<body class="permission_denied">
+		<header class="site-header">
+		  <div class="wrap header-inner">
+			<a aria-label="CyberTacticsForge home" class="brand" href="#home"
+			  ><span aria-hidden="true" class="brand-mark">{<b> / </b>}</span
+			  ><span
+				>CyberTactics<span class="brand-forge">Forge</span
+				></span
+			  ></a
+			>
+			<button
+			  aria-controls="navigation"
+			  aria-expanded="false"
+			  class="menu-toggle"
+			  hidden=""
+			>
+			  Menu <span aria-hidden="true">+</span>
+			</button>
+			<nav aria-label="Main navigation" id="navigation">
+			  <a href="#whatwedo">What we do</a
+			  ><a href="/programs/">Programs</a
+			  ><a href="#missionvision">Our mission</a
+			  ><a href="#whoweare">Our people</a
+			  ><a class="nav-cta" href="#getinvolved"
+				>Get involved <span aria-hidden="true">↗</span></a
+			  >
+			</nav>
+		  </div>
+		</header>
 
-<body class="permission_denied">
-    <div id="tsparticles"></div>
-    <div class="denied__wrapper">
-        <h1>404</h1>
-        <h3>LOST IN <span>SPACE</span> App-Name? Hmm, looks like that page doesn't exist.</h3>
-        <img id="astronaut" src="./assets/astronaut.svg" />
-        <img id="planet" src="./assets/planet.svg" />
-        <a href="https://cybertacticsforge.org/"><button class="denied__link">Go Home</button></a>
-    </div>
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js"></script>
-    <script type="text/javascript" src="./404.js"></script>
-
+		<div style="display: flex;">
+			<div class="centered-error">
+				<h1>Looks like you explored too much!</h1>
+				<p>This page doesn't exist.</p>
+				<a class="button dark" href="https://cybertacticsforge.org">Take me home!</a>
+			</div>
+		</div>
+	</body>
 </html>
