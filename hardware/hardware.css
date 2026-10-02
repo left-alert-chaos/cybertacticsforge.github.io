@@ -75,7 +75,7 @@ nav .nav-cta:hover { background: var(--ink); color: white; }
 .need-topline { display: flex; justify-content: space-between; gap: 18px; color: var(--muted); margin-bottom: 25px; }
 .priority-one .need-topline span:first-child { color: var(--red); }
 .need-card h3 { font-size: 1.7rem; }
-.need-card > p { margin: 14px 0 24px; color: var(--muted); font-size: .9rem; }
+.need-card > p { margin: 14px 0 ; color: var(--muted); font-size: .9rem; }
 .need-card dl { margin: 0; border-top: 1px solid var(--line); }
 .need-card dl div { display: grid; grid-template-columns: 125px 1fr; gap: 20px; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .need-card dt { font: 700 .68rem monospace; color: var(--red); text-transform: uppercase; }
